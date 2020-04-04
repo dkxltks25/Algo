@@ -17,7 +17,6 @@ function RemoveSameElement(lost, reserve) {
     lost.splice(index[0], 1);
     reserve.splice(index[1], 1);
   });
-
 }
 const List = [
   { n: 5, lost: [2, 4], reserve: [1, 3, 5] },
